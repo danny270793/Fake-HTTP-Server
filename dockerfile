@@ -1,4 +1,4 @@
-FROM node:18.16.0-alpine as builder
+FROM node:20.16.0-alpine as builder
 
 WORKDIR /app
 
@@ -9,7 +9,7 @@ COPY ./tsconfig.json ./tsconfig.json
 COPY ./src ./src
 RUN npm run build
 
-FROM node:18.16.0-alpine as server
+FROM node:20.16.0-alpine as server
 RUN apk add --update curl && rm -rf /var/cache/apk/*
 
 WORKDIR /app
