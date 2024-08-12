@@ -1,6 +1,6 @@
 # FAKE HTTP Server
 
-[![Release pipeline](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/tag-image.yaml/badge.svg)](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/release.yaml)
+[![Release pipeline](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/tag-image.yaml/badge.svg)](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/releaser.yaml)
 
 ![Docker Image Size](https://img.shields.io/docker/image-size/danny27071993/Fake-HTTP-Server)
 ![GitHub repo size](https://img.shields.io/github/repo-size/danny270793/Fake-HTTP-Server)
