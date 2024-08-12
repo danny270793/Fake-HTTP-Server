@@ -19,10 +19,10 @@ RUN npm install --production
 
 COPY --from=builder /app/build ./build
 
-RUN groupadd -g 10001 app && \
-   useradd -u 10000 -g app app \
-   && chown -R app:app /app
+RUN touch /app/.env
 
-USER app:app
+RUN addgroup -S appuser && adduser -S appuser -G appuser
+RUN chown -R appuser:appuser /app
+USER appuser
 
 CMD npm run start
