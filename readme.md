@@ -10,7 +10,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/danny270793/Fake-HTTP-Server/total)
 ![Docker Pulls](https://img.shields.io/docker/pulls/danny27071993/fake-http-server)
 
-Fake http server wich returns the hostname of the running machine and the node name shared via environment variables
+Fake http server which returns the hostname of the running machine and the node name shared via environment variables
 
 ## Use it
 
