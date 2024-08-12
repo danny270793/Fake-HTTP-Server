@@ -1,14 +1,14 @@
 # FAKE HTTP Server
 
-[![Release pipeline](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/tag-image.yaml/badge.svg)](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/releaser.yaml)
+[![Release pipeline](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/releaser.yaml/badge.svg)](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/releaser.yaml)
 
-![Docker Image Size](https://img.shields.io/docker/image-size/danny27071993/Fake-HTTP-Server)
+![Docker Image Size](https://img.shields.io/docker/image-size/danny27071993/fake-http-server)
 ![GitHub repo size](https://img.shields.io/github/repo-size/danny270793/Fake-HTTP-Server)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/danny270793/Fake-HTTP-Server)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/danny270793/Fake-HTTP-Server)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/danny270793/Fake-HTTP-Server/total)
-![Docker Pulls](https://img.shields.io/docker/pulls/danny27071993/Fake-HTTP-Server)
+![Docker Pulls](https://img.shields.io/docker/pulls/danny27071993/fake-http-server)
 
 Fake http server wich returns the hostname of the running machine and the node name shared via environment variables
 
@@ -85,6 +85,6 @@ docker push danny27071993/fake-http-server
 
 ![GitHub Tag](https://img.shields.io/github/v/tag/danny270793/Fake-HTTP-Server)
 ![GitHub Release](https://img.shields.io/github/v/release/danny270793/Fake-HTTP-Server)
-![Docker Image Version](https://img.shields.io/docker/v/danny27071993/Fake-HTTP-Server)
+![Docker Image Version](https://img.shields.io/docker/v/danny27071993/fake-http-server)
 
-Last update 04/09/2016
+Last update 11/08/2024
