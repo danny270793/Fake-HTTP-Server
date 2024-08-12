@@ -1,5 +1,15 @@
 # FAKE HTTP Server
 
+[![Release pipeline](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/tag-image.yaml/badge.svg)](https://github.com/danny270793/Fake-HTTP-Server/actions/workflows/release.yaml)
+
+![Docker Image Size](https://img.shields.io/docker/image-size/danny27071993/Fake-HTTP-Server)
+![GitHub repo size](https://img.shields.io/github/repo-size/danny270793/Fake-HTTP-Server)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/danny270793/Fake-HTTP-Server)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/danny270793/Fake-HTTP-Server)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/danny270793/Fake-HTTP-Server/total)
+![Docker Pulls](https://img.shields.io/docker/pulls/danny27071993/Fake-HTTP-Server)
+
 Fake http server wich returns the hostname of the running machine and the node name shared via environment variables
 
 ## Use it
@@ -63,16 +73,18 @@ docker push danny27071993/fake-http-server
 
 ## Follow me
 
-- [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
-- [Github](https://www.github.com/danny270793/)
-- [LinkedIn](https://www.linkedin.com/in/danny270793)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/danny270793/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danny270793)
 
 ## LICENSE
 
-Licensed under the [MIT](license.md) License
+[![GitHub License](https://img.shields.io/github/license/danny270793/Fake-HTTP-Server)](license.md)
 
 ## Version
 
-RPiGpioController version 2.0.16.09.16.19.30
+![GitHub Tag](https://img.shields.io/github/v/tag/danny270793/Fake-HTTP-Server)
+![GitHub Release](https://img.shields.io/github/v/release/danny270793/Fake-HTTP-Server)
+![Docker Image Version](https://img.shields.io/docker/v/danny27071993/Fake-HTTP-Server)
 
 Last update 04/09/2016
