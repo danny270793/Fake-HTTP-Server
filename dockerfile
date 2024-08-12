@@ -19,4 +19,10 @@ RUN npm install --production
 
 COPY --from=builder /app/build ./build
 
+RUN groupadd -g 10001 app && \
+   useradd -u 10000 -g app app \
+   && chown -R app:app /app
+
+USER app:app
+
 CMD npm run start
