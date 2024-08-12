@@ -37,7 +37,7 @@ services:
         ports:
             - 9000:3000
         healthcheck:
-            test: curl 127.0.0.1:3000
+            test: curl 127.0.0.1:3000/health
             interval: 30s
             timeout: 3s
             retries: 5
